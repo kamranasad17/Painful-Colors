@@ -55,7 +55,7 @@ const audioMap = {
 };
 
 function changeText(button) {
-    button.innerText = "Mehfil-e-dard mai swagat hai!";
+    button.innerText = "Mehfil-E-Dard Mai Swagat Hai!";
 }
 
 function updateContent() {
@@ -82,3 +82,4 @@ function updateContent() {
 
 btn.addEventListener("click", updateContent);
 document.addEventListener("keydown", updateContent);
+
